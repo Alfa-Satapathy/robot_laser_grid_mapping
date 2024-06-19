@@ -16,6 +16,9 @@ def p2l(p):
     return np.log(p/(1-p))
 
 
+
+
+
 class GridMapping:
     def __init__(self, map_center_x, map_center_y, map_size_x, map_size_y, map_resolution, laser_min_angle, laser_max_angle, laser_resolution, laser_max_dist, sensor_model_p_occ, sensor_model_p_free, sensor_model_p_prior):
         self.map_center_x = map_center_x          #meter
